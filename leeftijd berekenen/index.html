@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leeftijd berekenaar</title>
+</head>
+<body>
+    <script>
+    let now = new Date();
+    let birth = new Date(2009, 4, 25); 
+    let miliseconds = now-birth;
+    miliseconds = Math.floor(miliseconds /(1000 * 60 * 60 * 24));
+    console.log(miliseconds);
+  </script>
+</body>
+</html>
